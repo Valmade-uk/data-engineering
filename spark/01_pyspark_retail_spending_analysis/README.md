@@ -122,7 +122,7 @@ After removing rows with missing values:
 3. Install PySpark and Jupyter support.
 4. Make the course CSV files available locally.
 5. Adjust the dataset paths in the notebook if necessary.
-6. Open `goit_de_hw_03.ipynb`.
+6. Open `pyspark_retail_spending_analysis.ipynb`.
 7. Run all cells from top to bottom.
 
 Example dependency installation:
