@@ -2,10 +2,40 @@
 
 A collection of practical projects completed as part of my Data Engineering studies at GoIT Neoversity.
 
-The repository contains projects covering distributed data processing, ETL, databases, data pipelines, and other Data Engineering technologies.
+The repository covers distributed data processing, ETL, data pipelines, databases, orchestration, and other Data Engineering technologies.
+
+## Technologies
+
+- Apache Spark / PySpark
+- SQL
+- Apache Airflow
+- Apache Kafka
+- dbt
+- Python
 
 ## Projects
 
-| # | Project | Technologies | Description |
-|---|---|---|---|
-| 01 | [PySpark Retail Spending Analysis](./spark/01_pyspark_retail_spending_analysis/) | Python, Apache Spark, PySpark | Data cleaning, joins, aggregations, and customer spending analysis |
+### Apache Spark
+
+| Project | Key Topics | Description |
+|---|---|---|
+| [PySpark Retail Spending Analysis](./spark/01_pyspark_retail_spending_analysis/) | DataFrames, cleaning, joins, aggregations | Retail spending analysis with customer age segmentation using PySpark |
+
+<!-- Future sections:
+
+### Apache Airflow
+
+| Project | Key Topics | Description |
+|---|---|---|
+
+### SQL
+
+| Project | Key Topics | Description |
+|---|---|---|
+
+### Apache Kafka
+
+| Project | Key Topics | Description |
+|---|---|---|
+
+-->
