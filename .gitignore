@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Local datasets
+data/
+
+# Learning / experimental code
+laboratory/
+
+# Spark local files
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Environment variables
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Local archives
+*.zip
