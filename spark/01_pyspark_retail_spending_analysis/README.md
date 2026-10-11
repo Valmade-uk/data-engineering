@@ -1,12 +1,12 @@
-# pyspark_retail_spending_analysis
+# PySpark Retail Spending Analysis
 
-Homework 03 for the **GoIT Neoversity Data Engineering course**.
+A PySpark data analysis project completed as **Homework 03** of the GoIT Neoversity Data Engineering course.
 
-This repository contains a PySpark homework project focused on loading, cleaning, joining, aggregating, and analyzing data with **Apache Spark**.
+The project demonstrates data loading, cleaning, joins, aggregations, filtering, and spending analysis using **Apache Spark and PySpark**.
 
-## Homework Objectives
+## Objectives
 
-The assignment consists of six stages:
+The project consists of six stages:
 
 1. Load three CSV datasets into separate Spark DataFrames.
 2. Remove rows containing missing values.
@@ -24,29 +24,29 @@ The assignment consists of six stages:
 
 ## Input Data
 
-The homework uses three CSV files provided by the course:
+The project uses three CSV files provided as course materials:
 
 - `users.csv` — user information
 - `purchases.csv` — purchase transactions
 - `products.csv` — product information
 
-The source datasets are **not included in this repository** because they are provided separately as course materials.
+The source datasets are not included in this repository.
 
-The notebook uses local file paths to access these datasets. If the project is run on another machine, the paths may need to be adjusted to match the local directory structure.
+The notebook uses local file paths to access the datasets. These paths may need to be adjusted when running the project on another machine.
 
 ## Project Structure
 
 ```text
-pyspark_retail_spending_analysis/
-├── screenshots/
-│   ├── 01_...
-│   ├── 02_...
-│   ├── 03_...
-│   ├── 04_...
-│   ├── 05_...
-│   └── 06_...
+01_pyspark_retail_spending_analysis/
+├── README.md
 ├── pyspark_retail_spending_analysis.ipynb
-└── README.md
+└── screenshots/
+    ├── 01_load_input_dataframes.png
+    ├── 02_remove_missing_values.png
+    ├── 03_total_purchase_amount_by_category.png
+    ├── 04_purchase_amount_age_18_25.png
+    ├── 05_spending_share_age_18_25.png
+    └── 06_top_3_categories_by_spending_share.png
 ```
 
 ## Data Processing Pipeline
@@ -131,26 +131,15 @@ Example dependency installation:
 python -m pip install pyspark jupyter
 ```
 
-> Note: the local Spark/Java configuration used in the notebook may need to be adjusted for a different operating system or installation path.
+> Note: the local Spark and Java configuration used in the notebook may need to be adjusted for a different operating system or installation path.
 
 ## Screenshots
 
-The `screenshots/` directory contains the required `df.show()` outputs for the six homework stages.
+The `screenshots/` directory contains the output for each stage of the assignment:
 
-Suggested naming convention:
-
-```text
-p1_users_dataframe.png
-p1_purchases_dataframe.png
-p1_products_dataframe.png
-
-p2_cleaning_counts.png
-p2_cleaned_users.png
-p2_cleaned_purchases.png
-p2_cleaned_products.png
-
-p3_total_purchases_by_category.png
-p4_purchases_by_category_age_18_25.png
-p5_spending_share_age_18_25.png
-p6_top_3_categories.png
-```
+1. `01_load_input_dataframes.png`
+2. `02_remove_missing_values.png`
+3. `03_total_purchase_amount_by_category.png`
+4. `04_purchase_amount_age_18_25.png`
+5. `05_spending_share_age_18_25.png`
+6. `06_top_3_categories_by_spending_share.png`
