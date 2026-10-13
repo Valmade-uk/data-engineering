@@ -20,6 +20,7 @@ The repository covers distributed data processing, ETL, data pipelines, database
 | Project | Key Topics | Description |
 |---|---|---|
 | [PySpark Retail Spending Analysis](./spark/01_pyspark_retail_spending_analysis/) | DataFrames, cleaning, joins, aggregations | Retail spending analysis with customer age segmentation using PySpark |
+| [Spark Optimization and SparkUI](./spark/02_spark_optimization_spark_ui/) | Python, Apache Spark, PySpark, SparkUI | Lazy execution, Actions, Jobs, shuffle operations, and DataFrame caching |
 
 <!-- Future sections:
 
